@@ -1,0 +1,28 @@
+.stApp {
+  background: linear-gradient(45deg, #3a5683 10%, #f44336 45%, #0E1117 55%, #3a5683 90%);
+  animation: cyberbully-bg 10s ease-in-out infinite;
+  background-size: 200% 200%;
+  background-attachment: fixed;
+}
+
+@keyframes cyberbully-bg {
+  0% {background-position: 0% 0%;}
+  50% {background-position: 100% 100%;}
+  100% {background-position: 0% 0%;}
+}
+
+/* Add more styling for components as desired */
+h1, h2, h3 {
+  color: #f44336;
+  text-shadow: 2px 2px #000;
+}
+.stButton>button {
+  background: #f44336;
+  color: #fff;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+.stButton>button:hover {
+  background: #3a5683;
+  color: #fff;
+}
