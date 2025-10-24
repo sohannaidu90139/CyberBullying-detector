@@ -1,0 +1,43 @@
+body {
+    background-color: #0e1117;
+    color: #fafafa;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #00b4d8;
+    text-align: center;
+    font-weight: 600;
+}
+
+.stTextArea textarea {
+    background-color: #1e1e1e !important;
+    color: #fafafa !important;
+    border-radius: 10px;
+    border: 1px solid #00b4d8;
+}
+
+.stButton>button {
+    background-color: #00b4d8;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.stButton>button:hover {
+    background-color: #0096c7;
+    transform: scale(1.05);
+}
+
+.sidebar .sidebar-content {
+    background-color: #1a1a1a;
+}
+
+[data-testid="stSidebar"] h2 {
+    color: #90e0ef;
+}
+
+.stAlert {
+    border-radius: 10px;
+}
